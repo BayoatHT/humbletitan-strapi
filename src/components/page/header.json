@@ -1,0 +1,98 @@
+{
+    "collectionName": "components_page_headers",
+    "info": {
+        "displayName": "header",
+        "icon": "file-alt",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "metaDescription": {
+            "type": "text"
+        },
+        "keywords": {
+            "type": "text"
+        },
+        "robots": {
+            "type": "string"
+        },
+        "revisitAfter": {
+            "type": "string"
+        },
+        "language": {
+            "type": "string"
+        },
+        "author": {
+            "type": "string"
+        },
+        "og_locale": {
+            "type": "string"
+        },
+        "og_type": {
+            "type": "string"
+        },
+        "og_title": {
+            "type": "string"
+        },
+        "og_description": {
+            "type": "text"
+        },
+        "og_url": {
+            "type": "string"
+        },
+        "og_site_name": {
+            "type": "string"
+        },
+        "og_image": {
+            "type": "string"
+        },
+        "twitter_url": {
+            "type": "string"
+        },
+        "twitter_domain": {
+            "type": "string"
+        },
+        "twitter_card": {
+            "type": "string"
+        },
+        "twitter_site": {
+            "type": "string"
+        },
+        "twitter_image": {
+            "type": "string"
+        },
+        "twitter_creator": {
+            "type": "string"
+        },
+        "twitter_title": {
+            "type": "string"
+        },
+        "twitter_description": {
+            "type": "text"
+        },
+        "itemProp_image": {
+            "type": "string"
+        },
+        "itemProp_name": {
+            "type": "string"
+        },
+        "itemProp_description": {
+            "type": "text"
+        },
+        "geo_region": {
+            "type": "string"
+        },
+        "geo_placename": {
+            "type": "string"
+        },
+        "geo_position": {
+            "type": "string"
+        },
+        "canonicalUrl": {
+            "type": "string"
+        }
+    }
+}

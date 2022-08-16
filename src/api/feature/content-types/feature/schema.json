@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "features",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature-card"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "details": {
+      "type": "richtext"
+    },
+    "heading2": {
+      "type": "string"
+    }
+  }
+}

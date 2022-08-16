@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "displayName": "label",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.label"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

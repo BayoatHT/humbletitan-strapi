@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_trad_mark_qs",
+  "info": {
+    "displayName": "trad_mark_qs",
+    "icon": "arrow-alt-circle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.qs-to-ask"
+    }
+  }
+}

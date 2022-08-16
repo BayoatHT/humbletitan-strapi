@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_page_section_with_images",
+  "info": {
+    "displayName": "section_with_image",
+    "icon": "photo-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.label"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "image_direction": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "actionButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    }
+  }
+}

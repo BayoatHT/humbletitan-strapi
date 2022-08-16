@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_our_offices_sections",
+  "info": {
+    "displayName": "ourOffices_section",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "office": {
+      "displayName": "singleOffice_card",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.single-office-card"
+    },
+    "action_button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.action-button"
+    }
+  }
+}

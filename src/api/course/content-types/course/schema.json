@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "singularName": "course",
+    "pluralName": "courses",
+    "displayName": "courses",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero"
+    },
+    "tableOfContents": {
+      "displayName": "tableOfContents",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.table-of-contents"
+    },
+    "completeMethod": {
+      "displayName": "completeMethod",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.complete-method"
+    },
+    "tramStandardPacks": {
+      "displayName": "tramStandardPacks",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.tram-standard-packs"
+    },
+    "chapters": {
+      "displayName": "chapters",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.chapters"
+    },
+    "otherServices": {
+      "displayName": "otherServices",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.other-services"
+    },
+    "ht_digital_services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.ht-digital-services"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "targetField": "name"
+    },
+    "name": {
+      "type": "string"
+    },
+    "navImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

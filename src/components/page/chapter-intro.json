@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_page_chapter_intros",
+  "info": {
+    "displayName": "chapterIntro",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "chapterIntro": {
+      "displayName": "chpaterIntro",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.chpater-intro"
+    },
+    "theStory": {
+      "type": "richtext"
+    },
+    "getInTouch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.action-button"
+    },
+    "theReturn": {
+      "displayName": "theReturn",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.the-return"
+    },
+    "jumpToChapters": {
+      "displayName": "jumpToChapters",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.jump-to-chapters"
+    },
+    "chapterConclusion": {
+      "displayName": "chapterConclusion",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.chapter-conclusion"
+    }
+  }
+}
